@@ -1,0 +1,41 @@
+.footer {
+  
+  padding: 20px 0px;
+  background: $main-color;
+  h1,
+  h3 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  p {
+    max-width: 300px;
+  }
+  p,
+  li {
+    color: #f3f3f3;
+    margin-bottom: 15px;
+  }
+  ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .socials {
+    display: flex;
+    margin-top: 15px;
+    li {
+      margin-right: 15px;
+      cursor: pointer;
+    }
+  }
+  .under-line {
+    height: 1px;
+    width: 100%;
+    background: #e1e1e1;
+    margin: 15px 0px;
+  }
+  .create-box {
+    display: flex;
+    justify-content: space-between;
+  }
+}

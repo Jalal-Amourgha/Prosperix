@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/website.css">
+  <title>Sass</title>
+</head>
+
+<body>
+  <!-- Navbar - Section-->
+  <nav>
+    <div class="container">
+      <div class="navbar">
+        <a href="#hemo" class="logo">Prosperix</a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+        <ul>
+          <button class="normal-btn">Sign in</button>
+          <button class="green-btn">Get Started</button>
+        </ul>
+        <button class="menu-btn toggle-btn" onclick="navbar()"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+    <ul class="dropdown-menu" id="dropdownMenu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Help</a></li>
+      <li><button class="normal-btn">Sign in</button></li>
+      <li><button class="green-btn">Get Started</button></li>
+    </ul>
+  </nav>
+
+  <!-- Hero - Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="grid-2">
+        <div class="hero-title">
+          <h1>Navigating the <span>Global</span> financial landscape</h1>
+          <p>Empowering Your Journey to Global Financial Success Through Customized and Personalized Financial
+            Consulting for Every
+            Client</p>
+          <div class="input-box">
+            <input type="text" placeholder="Your email address">
+            <i class="fa-regular fa-envelope"></i>
+            <button class="green-btn">Get Started</button>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img src="images/hero img.png" class="img-size" alt="hero img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sponsors - Section-->
+  <section class="sponsors">
+    <div class="container">
+      <div class="grid-6">
+        <div>
+          <img src="images/walmart.png" alt="walmart">
+        </div>
+        <div>
+          <img src="images/fedex.png" alt="fedex">
+        </div>
+        <div>
+          <img src="images/amazon.png" alt="amazon">
+        </div>
+        <div>
+          <img src="images/stripe.png" alt="stripe">
+        </div>
+        <div>
+          <img src="images/airbnb.png" alt="airbnb">
+        </div>
+        <div>
+          <img src="images/ripple.png" alt="ripple">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Expertise - Section -->
+  <section class="expertise m-top">
+    <div class="container">
+      <div class="grid-2">
+        <div class="box-1">
+          <div class="section-title">
+            <h6>our expertise</h6>
+          </div>
+          <h1>Transforming Finances With Strategic Wealth Management</h1>
+          <p>Guiding You on Your Global Financial Success Journey Through Customized & Personalized Financial Consulting
+            Services.
+            Achieve Your Goals with Data-Driven Expertise and Secure Your Financial Future, Successfully Navigating the
+            Ever-Changing Finance</p>
+          <p>We're Committed to Providing You with Expert Guidance, Proven Strategies & Personalized Approach to Ensure
+            Financial
+            Prosperity</p>
+          <button class="border-btn">Explore Services</button>
+        </div>
+        <div class="box-2">
+          <img src="images/expertise img.png" class="img-size" alt="expertise img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services - Section -->
+  <section class="services m-top">
+    <div class="container">
+      <div class="grid-2">
+        <div class="box-1">
+          <img src="images/services img.png" class="img-size" alt="services img">
+        </div>
+        <div class="box-2">
+          <div class="section-title">
+            <h6>our services</h6>
+          </div>
+          <h1>Our Services Can Help You<br>Grow Your Investments and Wealth</h1>
+          <p>Embark on a Journey to Unlock a World of Financial Opportunities, Grow Your Investment with Our
+            Comprehensive and Expert
+            Services</p>
+          <div class="services-features">
+            <div class="service-feature">
+              <span style="background: #CAFFD2;"><i class="fa-solid fa-dollar-sign" style="color: #33DF58;"></i></span>
+              <h6>Financial Planning</h6>
+            </div>
+            <div class="service-feature">
+              <span style="background: #FFABAB;"><i class="fa-solid fa-chart-pie" style="color: #CF4141;"></i></span>
+              <h6>Investment Advisory</h6>
+            </div>
+            <div class="service-feature">
+              <span style="background: #70F1EA;"><i class="fa-solid fa-house" style="color: #27B4AC;"></i> </span>
+              <h6>Estate Planning</h6>
+            </div>
+            <div class="service-feature">
+              <span style="background: #FFEE90;"><i class="fa-solid fa-building-columns"
+                  style="color: #B59F28;"></i></span>
+              <h6>Wealth Management</h6>
+            </div>
+          </div>
+          <button class="border-btn">Explore Services</button>
+        </div>
+      </div>
+  </section>
+
+  <!-- Testimonials - Section -->
+  <section class="testimonials m-top">
+    <div class="container">
+      <div class="section-title">
+        <h6>testimonials</h6>
+      </div>
+      <h1>What Our Customers Say</h1>
+      <p>Discover the Success Stories and Satisfaction of Clients Who Have Benefited from Our Expertise and Personalized
+        Financial Guidance</p>
+      <div class="grid-3">
+        <div class="testimonial-box">
+          <div class="testimonial-person">
+            <img src="images/testimonial 1.jpg" alt="testimonials">
+            <div>
+              <h6>Anas Ajaanan</h6>
+              <p>IT Architect</p>
+            </div>
+          </div>
+          <p>Financial expertise has made a significant impact on our nonprofit financial stability, allowing us to
+            better serve our
+            community</p>
+          <div class="icon-quote-box">
+            <i class="fa-solid fa-quote-left"></i>
+          </div>
+        </div>
+        <div class="testimonial-box">
+          <div class="testimonial-person">
+            <img src="images/testimonial 2.png" alt="testimonials">
+            <div>
+              <h6>Linda Carter</h6>
+              <p>Analyst</p>
+            </div>
+          </div>
+          <p>Financial planning and investment advice I received from this team completely transformed my future. I
+            couldn't be
+            happier with the results.</p>
+          <div class="icon-quote-box">
+            <i class="fa-solid fa-quote-left"></i>
+          </div>
+        </div>
+        <div class="testimonial-box">
+          <div class="testimonial-person">
+            <img src="images/testimonial 3.png" alt="testimonials">
+            <div>
+              <h6>Grace Turner </h6>
+              <p>Director</p>
+            </div>
+          </div>
+          <p>Estate planning is crucial, and they made the process seamless and stress-free. I can rest assured knowing
+            family's
+            future is secure</p>
+          <div class="icon-quote-box">
+            <i class="fa-solid fa-quote-left"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Provides - Section -->
+  <section class="provides m-top">
+    <div class="container">
+      <h1>Our Team Provides Valuable Services at Any Time in Any Situation</h1>
+      <div class="grid-3">
+        <div class="provide-box">
+          <div class="icon-box" style="background-color: #DAFAFC;">
+            <img src="images/graduation.png" alt="graduation icon">
+          </div>
+          <h3>Expert Guidance</h3>
+          <p>Rely on seasoned professionals for tailored financial advice and strategic planning aligned with your
+            unique goalsx.</p>
+          <a href="#">Read more</a>
+        </div>
+        <div class="provide-box">
+          <div class="icon-box" style="background:#FDE4E4;">
+            <img src="images/safe.png" alt="safe icon">
+          </div>
+          <h3>Risk Management</h3>
+          <p>We expertly handle and proactively mitigate financial risks, ensuring the safeguard of assets and overall
+            stability.</p>
+          <a href="#">Read more</a>
+        </div>
+        <div class="provide-box">
+          <div class="icon-box" style="background:#DAFCDF;">
+            <img src="images/dashboard.png" alt="dashboard icon">
+          </div>
+          <h3>Customized Solutions</h3>
+          <p>Receive and Benefit from with financial solutions that tailored to your unique financial challenges and
+            aspirations.</p>
+          <a href="#">Read more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA - Section -->
+  <section class="CTA m-top">
+    <div class="container">
+      <div class="grid-2 cta-boxes">
+        <div class="box-1">
+          <div class="section-title">
+            <h6>start now</h6>
+          </div>
+          <h1>Get Start For Free No Credit Card Required</h1>
+          <div>
+            <input type="text" placeholder="Enter address">
+            <button class="green-btn">Get Started</button>
+          </div>
+          <p>Want to contact our team and book a call? <span>Try it now</span></p>
+        </div>
+        <div class="box-2">
+          <img src="images/cta img.png" class="img-size" alt="cta img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer - Section-->
+  <section class="footer m-top">
+    <div class="container">
+      <div class="grid-4">
+        <div>
+          <h1>Prosperix</h1>
+          <p>Our expert financial consultants provide solutions to help you achieve financial wealth. Trust us to guide
+            you toward a
+            brighter financial future.</p>
+          <ul class="socials">
+            <li><i class="fa-brands fa-facebook-f"></i> Facebook</li>
+            <li><i class="fa-brands fa-x-twitter"></i> Twitter</li>
+            <li><i class="fa-brands fa-instagram"></i> Instagram</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Our Services</h3>
+          <ul>
+            <li>Insurance Planning</li>
+            <li>Estate Planning</li>
+            <li>Tax Optimization</li>
+            <li>Debt Management</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Explore More</h3>
+          <ul>
+            <li>About us</li>
+            <li>Blog</li>
+            <li>Site map</li>
+            <li>Privacy</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p>contact@briofin.com</p>
+          <p>+1 (555) 123-4567</p>
+        </div>
+      </div>
+      <div class="under-line"></div>
+      <div class="create-box">
+        <p>DSCODE 2024 © All rights reserved</p>
+        <div style="display: flex;">
+          <p style="margin-right: 10px;">Terms & Conditions</p>
+          <p>Privacy Policy</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+<script src="js/main.js"></script>
+<script src="https://kit.fontawesome.com/97220a04d8.js" crossorigin="anonymous"></script>
+
+</html>

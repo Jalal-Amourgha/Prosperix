@@ -1,0 +1,7 @@
+.img-size {
+  max-width: 80%;
+  height: auto;
+  @media (max-width: 992px) {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,43 @@
+%button-properties {
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 12px;
+  width: fit-content;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.green-btn {
+  @extend %button-properties;
+  background: $main-color;
+  color: white;
+}
+
+
+.normal-btn {
+  @extend %button-properties;
+  background: none;
+  color: $main-color;
+}
+
+.menu-btn {
+  @extend %button-properties;
+  background: none;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.border-btn {
+  @extend %button-properties;
+  border: 1px solid $main-color;
+  color: $main-color;
+  background: none;
+  transition: 0.7s;
+  &:hover {
+    background: $main-color;
+    color: white;
+  }
+}

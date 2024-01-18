@@ -1,0 +1,55 @@
+.testimonials {
+  h1 {
+    color: $text-color;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  p {
+    max-width: 500px;
+    transition: 0.5s;
+    margin-bottom: 30px;
+    color: $paragraph-color;
+  }
+  .testimonial-box {
+    padding: 25px 25px 70px 25px;
+    border: 2px solid $main-color;
+    border-radius: $border-radius;
+    position: relative;
+    transition: 0.5s;
+    cursor: pointer;
+    .testimonial-person {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      img {
+        margin-right: 15px;
+        border-radius: 50%;
+      }
+      h6 {
+        font-size: 20px;
+        color: $text-color;
+        transition: 0.5s;
+      }
+    }
+    .icon-quote-box {
+      position: absolute;
+      bottom: 15px;
+      right: 25px;
+      font-size: 30px;
+      color: $main-color;
+      transition: 0.5s;
+    }
+    &:hover {
+      background: $main-color;
+    }
+    &:hover h6 {
+      color: white;
+    }
+    &:hover p {
+      color: white;
+    }
+    &:hover i {
+      color: white;
+    }
+  }
+}

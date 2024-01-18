@@ -1,0 +1,29 @@
+.expertise {
+  
+  h1 {
+    font: {
+      size: 35px;
+      weight: 700;
+    }
+    color: $text-color;
+    margin-bottom: 35px;
+  }
+  p {
+    color: $paragraph-color;
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+  @media (max-width: 992px) {
+    .box-1 {
+      margin-bottom: 30px;
+    }
+  }
+  .box-2 {
+    background: $img-background-color;
+    border-radius: $border-radius;
+    img {
+      margin: auto;
+      display: block;
+    }
+  }
+}

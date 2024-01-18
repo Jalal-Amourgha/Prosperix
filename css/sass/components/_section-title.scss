@@ -1,0 +1,23 @@
+.section-title {
+  position: relative;
+  margin-bottom: 20px;
+  h6 {
+    background: $img-background-color;
+    color: $main-color;
+    padding: 7px;
+    width: fit-content;
+    border-radius: 4px;
+    font-size: 14px;
+    text-transform: uppercase;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 47%;
+      left: 130px;
+      background: $main-color;
+      border-radius: 20px;
+      height: 2px;
+      width: 100px;
+    }
+  }
+}

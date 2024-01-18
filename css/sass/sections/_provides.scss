@@ -1,0 +1,31 @@
+.provides {
+    h1 {
+    max-width: 500px;
+    color: $text-color;
+    margin-bottom: 30px;
+  }
+  .icon-box {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h3 {
+    color: $text-color;
+    margin: 25px 0px;
+  }
+  p {
+    color: $paragraph-color;
+    line-height: 1.6;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 500;
+    color: $main-color;
+  }
+}
