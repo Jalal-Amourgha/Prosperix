@@ -34,6 +34,11 @@ body {
     max-width: 1170px;
   }
 }
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1370px;
+  }
+}
 
 .grid-2 {
   display: grid;
@@ -571,4 +576,4 @@ nav .dropdown-menu .green-btn {
 .footer .create-box {
   display: flex;
   justify-content: space-between;
-}/*# sourceMappingURL=website.css.map */
+}/*# sourceMappingURL=style.css.map */
